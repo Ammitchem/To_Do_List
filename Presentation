@@ -1,0 +1,29 @@
+To_Do_List = ["Wake', "Study","Sleep"
+selection = ""
+while slection != "4":
+    selection = input()"\n # Please enter a number.\n\
+1. View To_Do_List\n\
+2. Add to list \n\
+3. Remove from list = \n\
+4. Quit \n")"
+if selection == "1":
+    print ("\n")
+    for item in To_Do_List:
+        print(item)
+input("\n Press enter to continue.")
+if selection == "2":
+    item_to_added = input("\n "What would you like to add?"\n)
+    To_Do_List.append(item_to_added)
+    input("\n Press enter to continue.")
+", "Study", "Sleep"]
+selection = ""  
+if selection == "3":
+    item_to_remove = input("\n What would you like to remove?\n")
+    if item_to_remove in To_Do_List:
+        To_Do_List.remove(item_to_remove)
+    else:
+        print("\n Item not found in the list.")
+    input("\n Press enter to continue.")
+    print("\n Goodbye!")
+
+
